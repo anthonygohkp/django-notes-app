@@ -14,6 +14,7 @@ function App() {
     <Router>
       <div className="container dark">
         <div className="app">
+          console.log("Made changes");
         <Header />
         <Routes>
           <Route path='/' element={ <NotesListPage/> } />
